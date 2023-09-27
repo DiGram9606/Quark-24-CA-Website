@@ -1,0 +1,38 @@
+.th{
+    background-color: #F7F3FF;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding: 5%;
+    margin-top: 3rem;
+    border-radius: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+}
+
+.imgg{ 
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 10%;
+    max-height: 15vh;
+}
+
+.th .h1{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.space{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+}

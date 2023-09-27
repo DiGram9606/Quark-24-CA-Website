@@ -1,0 +1,25 @@
+.contact-card{
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    text-align: center;
+    max-width: fit-content;
+    border-radius: 1rem;
+    padding: 0.8rem 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+}
+
+.contact-card img{
+    border-radius: 50%;
+}
+
+
+.contact-card h3, h4, p{
+    margin: 0.25rem;
+    padding: 0;
+}
+

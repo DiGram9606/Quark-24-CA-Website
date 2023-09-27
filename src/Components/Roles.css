@@ -1,0 +1,79 @@
+
+.roles{
+    background-color: white;
+    color: black;
+    padding: 2rem 1rem;
+}
+
+.roles h1{
+    font-weight: 700;
+    text-align: center;
+}
+
+.what-to-do{
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.card-six{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/card6.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 1.5rem;
+    max-width: 20%;
+    color: black;
+}
+.card-seven{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/card7.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 1.5rem;
+    max-width: 20%;
+    color: black;
+}
+.card-eight{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/card8.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 1.5rem;
+    max-width: 20%;
+    color: black;
+}
+.card-nine{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/card9.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 1.5rem;
+    max-width: 20%;
+    color: black; 
+}
+
+@media screen and (max-width: 1000px) {
+    .card-six, .card-seven, .card-eight, .card-nine{
+         max-width: 35%;
+     }
+}
+
+@media screen and (max-width:700px){
+    .what-to-do{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-six, .card-seven, .card-eight, .card-nine{
+       min-width: 100px;
+        max-width: 80%;
+        align-self: center;
+    }
+}

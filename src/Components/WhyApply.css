@@ -1,0 +1,88 @@
+.why-apply{
+    background-color: white;
+    color: black;
+    padding: 2rem 1rem;
+}
+
+.why-apply h1{
+    font-weight: 700;
+    text-align: center;
+}
+
+.reasons-to-apply{
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.card-one{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/card1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 1.5rem;
+    max-width: 20%;
+    color: whitesmoke;
+}
+.card-two{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/card2.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 1.5rem;
+    max-width: 20%;
+    color: whitesmoke;
+}
+.card-three{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/card3.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 1.5rem;
+    max-width: 20%;
+    color: whitesmoke;
+}
+.card-four{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/card4.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 1.5rem;
+    max-width: 20%;
+    color: whitesmoke;
+}
+.card-five{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/card5.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 1.5rem;
+    max-width: 20%;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 1000px) {
+    .card-one, .card-two, .card-three, .card-four, .card-five{
+         max-width: 35%;
+     }
+}
+
+@media screen and (max-width:700px){
+    .reasons-to-apply{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-one, .card-two, .card-three, .card-four, .card-five{
+       min-width: 100px;
+        max-width: 80%;
+        align-self: center;
+    }
+}
