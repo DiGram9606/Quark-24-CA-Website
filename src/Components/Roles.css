@@ -27,7 +27,7 @@
     background-position: bottom right;
     border-radius: 1.5rem;
     max-width: 20%;
-    color: black;
+    color: white;
 }
 .card-seven{
     margin: 0;
@@ -37,7 +37,7 @@
     background-position: bottom right;
     border-radius: 1.5rem;
     max-width: 20%;
-    color: black;
+    color: white;
 }
 .card-eight{
     margin: 0;
@@ -47,7 +47,7 @@
     background-position: bottom right;
     border-radius: 1.5rem;
     max-width: 20%;
-    color: black;
+    color: white;
 }
 .card-nine{
     margin: 0;
@@ -57,7 +57,7 @@
     background-position: bottom right;
     border-radius: 1.5rem;
     max-width: 20%;
-    color: black; 
+    color: white; 
 }
 
 @media screen and (max-width: 1000px) {
